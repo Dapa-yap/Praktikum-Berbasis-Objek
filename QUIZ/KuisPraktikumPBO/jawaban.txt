@@ -1,0 +1,37 @@
+JAWABAN TUGAS NO 1
+=== Uji Tugas 1: Enkapsulasi ===
+[PASS] konstruktor menyimpan data dan laptop baru tersedia
+[PASS] kode aset yang tidak diawali 'LP-' ditolak
+[PASS] merk kosong ditolak
+[PASS] RAM selain 4, 8, 16, 32 ditolak
+[PASS] pinjam() pertama berhasil dan status berubah
+[PASS] pinjam() kedua kali gagal (laptop sedang dipinjam)
+[PASS] kembalikan() membuat laptop tersedia lagi
+[PASS] kembalikan() saat laptop tidak dipinjam ditolak
+[PASS] upgradeRam() dari 8 ke 16 berhasil
+[PASS] upgradeRam() ke nilai lebih kecil ditolak dan RAM tidak berubah
+[PASS] upgradeRam() ke nilai tidak valid ditolak
+[PASS] info() menampilkan status tersedia/dipinjam
+[PASS] semua atribut private (minimal 4 atribut) dan tidak ada method setXxx
+-------------------------------------
+Lulus 13 dari 13 uji
+
+JAWABAN TUGAS NO 2
+=== Uji Tugas 2: Relasi antar Class ===
+[PASS] Peminjaman baru menyimpan mahasiswa dan laptop, dan aktif
+[PASS] selesai() membuat peminjaman tidak aktif
+[PASS] tambahLaptop() menyimpan objek laptop yang sama (bukan salinan)
+[PASS] tambahLaptop() menolak kode aset yang sudah ada
+[PASS] tambahLaptop(null) ditolak
+[PASS] cariLaptop() mengembalikan null untuk kode yang tidak ada
+[PASS] pinjamkan() berhasil dan laptop menjadi tidak tersedia
+[PASS] pinjamkan() laptop yang tidak ada menghasilkan null
+[PASS] pinjamkan() laptop yang sedang dipinjam menghasilkan null
+[PASS] mahasiswa tidak boleh punya lebih dari 2 pinjaman aktif
+[PASS] jumlahPinjamanAktif() dihitung per mahasiswa
+[PASS] kembalikan() menyelesaikan peminjaman dan laptop tersedia lagi
+[PASS] kembalikan() laptop yang tidak sedang dipinjam menghasilkan false
+[PASS] setelah mengembalikan, mahasiswa bisa meminjam lagi
+[PASS] getDaftarLaptop() tidak bisa dipakai untuk menambah laptop dari luar
+-------------------------------------
+Lulus 15 dari 15 uji
