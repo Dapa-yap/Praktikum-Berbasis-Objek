@@ -7,6 +7,10 @@ class Manusia {
     }
 }
 class Dosen extends Manusia{
+    @Override
+    public void bernafas(){
+        System.out.println("Dosen bisa bernafas");
+    }
     public void makan(){
         System.out.println("Dosen bisa makan");
     }
@@ -15,6 +19,10 @@ class Dosen extends Manusia{
     }
 }
 class Mahasiswa extends Manusia{
+    @Override
+    public void bernafas(){
+        System.out.println("Mahasiswa bisa bernafas");
+    }
     public void makan(){
         System.out.println("Mahasiswa bisa makan");
     }
