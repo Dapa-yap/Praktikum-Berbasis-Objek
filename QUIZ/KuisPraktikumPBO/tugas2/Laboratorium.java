@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class Laboratorium {
     public static final int MAKS_PINJAM = 2;   // batas pinjaman aktif per mahasiswa
-
+    
     private final String nama;
     private final List<Laptop> daftarLaptop = new ArrayList<>();
     private final List<Peminjaman> riwayat = new ArrayList<>();

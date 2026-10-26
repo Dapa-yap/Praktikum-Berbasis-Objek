@@ -38,6 +38,6 @@ public class Peminjaman {
     public void selesai() {
         // TODO: tandai peminjaman sudah tidak aktif
         aktif = false;
-        //throw new UnsupportedOperationException("Belum diimplementasikan");
+        //  throw new UnsupportedOperationException("Belum diimplementasikan");
     }
 }

@@ -9,7 +9,7 @@ public class Laptop {
     private int ramGB;
     private boolean tersedia;
     // TODO: deklarasikan atribut yang diperlukan (kodeAset, merk, ramGB, tersedia)
-    private static boolean ramValid(int ram){
+    private boolean ramValid(int ram){
         return ram == 4 || ram == 8 || ram == 16 || ram == 32;
     }
 
